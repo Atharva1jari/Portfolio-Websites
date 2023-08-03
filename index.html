@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<head>
+     <title>Personal Portfolio</title>
+</head>
+<style>
+    .body
+    {
+        margin: 0;
+        padding: 0;
+        padding-top: 60px;
+    }
+    .Nav_container
+    {
+       padding: 15px;
+       background-color:rgb(50, 73, 50);
+       text-align: center;
+       width: 100%;
+       position: Fixed;
+       left: 0;
+       top: 0;
+       right: 0;
+    }
+    .Nav-heading
+    {
+       color: white;
+       text-decoration: none;
+       padding: 30px;
+       font-size: 30px;
+    }
+    .userheading
+    {
+        text-align: center;
+        padding:10px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .image
+    {
+        margin-top: 100px;
+    }
+    .info
+    {
+        margin-top: 100px;
+    }
+    .user-image
+    {
+        height: 200px;
+        border-radius: 50%;
+    }
+   .user-tahgline
+   {
+    font-size: 18px;
+   }
+   .Skill-set
+   {
+    font-size: 13px;
+    margin: 6px;
+    padding:10px;
+    margin: 5px;
+    width: 90px ;
+    border-radius: 30px;
+    border: none;
+    box-shadow:0px 3px 2px black ;
+   } 
+   .Skill-set:hover
+   {
+    background-color: blue;
+    color: aliceblue;
+    transition: 1s;
+   }
+   .container
+   {
+    padding: 30px;
+   }
+   .portfolio-information
+   {
+    justify-content: space-around;
+    text-align: center;
+   }
+   .about
+   {
+    height: 450px;
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 3px gray;
+   }
+   .Education
+   {
+    height: 450px;
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 3px gray;
+   }
+   .contact
+   {
+    height: 450px;
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 3px gray;
+   }
+   .text
+   {
+    text-align: justify;
+    font-size: 23px;
+
+   }
+   .contact-icon
+   {
+    height: 50px;
+   }
+
+   .project-heading
+   {
+    text-align: center;
+   }
+   .project-container
+   {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+   }
+   .project-img
+   {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+   }
+   .project-card
+   {
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px black;
+    margin: 10px;
+    max-width: 300px;
+   }
+   .project-name
+   {
+    text-align: center;
+   }
+   .project-info
+   {
+
+   }
+   .button
+   {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+   }
+   .project-btn
+   {
+    background-color: black;
+    color: white;
+    width: 70px;
+    padding: 4px;
+    border-radius: 20px;
+   }
+   .project-text
+   {
+    margin:10px;
+   }
+   .edu:hover
+   {
+    background-color: rgb(159, 189, 159);
+    border-radius: 10px;
+    border: 1px solid ;
+   }
+</style>
+<body>
+    <navbar class="Nav_container">
+       <div>
+       <a class="Nav-heading">Home</a>
+       <a href=#about class="Nav-heading">About-Me</a>
+       <a href=#Education class="Nav-heading">Education</a>
+       <a href=#project class="Nav-heading">Project</a>
+       <a href=#contact class="Nav-heading">Contact-Me</a>
+       
+       </div>
+     </navbar>
+ <div class="userheading">
+    <div class="image">
+      <img class="user-image" src="./images/photo.jpeg" >
+    </div>
+    
+    <div class="info">
+        <b>Hello, It's Me</b>
+       <h1>Atharva Wanjari</h1>
+       <p class="user-tahgline">Engineer | Web Developer</p>
+
+       <div>
+        <button class="Skill-set "><b>Html</b></button>
+        <button class="Skill-set "><b>CSS</b> </button>
+        <button class="Skill-set "><b>JavaScript</b></button>
+        <button class="Skill-set "><b>C & C++</b></button>
+        <button class="Skill-set "><b>Ms-Office</b></button>
+       </div>
+    </div>
+ </div>
+
+ <div class="container">
+   <div class="portfolio-information">
+          <div class="about" id="about">
+             <h2>About-Me</h2>
+             <p class="text">I am a dedicated, hardworking and productive
+                Engineer with a strong background in Computer
+                Programming Languages. I am currently looking for an
+                opportunity to utilize my technical skills in a
+                challenging working environment and become a
+                valuable asset to the organization that I work
+                for.</p>
+          </div>
+         
+          <div class="Education" id="Education">
+             <h2>Education</h2>
+             <hr>
+             <div class="edu">
+             <h3>Bachlore Of Engineering  (ENTC)</h3>
+             <p>Savitribai Phule Pune University</p>
+             <p>2018-2022</p>
+            </div>
+             <hr>
+             <div class="edu">
+             <h3>HSC</h3>
+             <p>Maharashtra State Board</p>
+             <p>2017-2018</p>
+            </div>
+             <hr>
+             <div class="edu">
+             <h3>SSC</h3>
+             <p>Maharashtra State Board</p>
+             <p>2015-2016</p>
+            </div>
+          </div>
+    </div>  
+ </div>
+ <h1 class="project-heading" id="project">Project</h1>
+  <div class="project-container">
+     <div class="project-card">
+         <img class="project-img" src="./Images/logo.jpg"/>
+         <div class="project-info">
+             <h3 class="project-name">Premium Watch Store</h3>
+             <p class="project-text"></p>
+
+              <div class="button">
+                 <a href="https://github.com/Atharva1jari/Premium_Watch_Store" ><button class="project-btn">GitHub</button></a>   
+                 <a href="https://premium-watch-store.netlify.app/"><button class="project-btn"> Netlify</button></a>
+              </div>
+          </div>
+       </div>
+
+     <div class="project-card">
+          <img class="project-img" src="./Images/calculator.webp"/>
+          <div class="project-info">
+             <h3 class="project-name">Calculator</h3>
+             <p class="project-text"> I make A simple Calculator Using Css And Html.</p>
+
+              <div class="button">
+                <a href="https://github.com/Atharva1jari/Caculator" ><button class="project-btn">GitHub</button></a>   
+                <a href="https://premium-watch-store.netlify.app/"><button class="project-btn"> Netlify</button></a>
+             </div>
+         </div>
+     </div>
+
+     <div class="project-card">
+          <img class="project-img" src="./Images/banner.png"/>
+          <div class="project-info">
+             <h3 class="project-name">Portfolio Website</h3>
+             <p class="project-text"></p>
+
+               <div class="button">
+                <a href="https://github.com/Atharva1jari/Premium_Watch_Store" ><button class="project-btn">GitHub</button></a>   
+                <a href="https://premium-watch-store.netlify.app/"><button class="project-btn"> Netlify</button></a>
+             </div>
+          </div>
+     </div>
+  </div>
+
+  <div class="contact" id="contact">
+    <h2>Contact-Us</h2>
+    <img class="contact-icon" src="./images/gmail.png"/> atharvawanjari09@gmail.com<br/><br/>
+    <img class="contact-icon" src="./Images/telephone-call.png"/> +919172861208<br/><br/>
+    <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BoNJC%2F745Sk20Df%2FOGIF1GA%3D%3D">
+        <img class="contact-icon" src="./Images/linkedin.png"/><br/>
+    </a></br>
+    <a>
+       <a href="https://www.instagram.com/atharva_1jari/">
+        <img class="contact-icon"src="./Images/instagram.png"/>
+    </a>
+</div>
+</body>
+</html>
